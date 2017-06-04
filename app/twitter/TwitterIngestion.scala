@@ -28,10 +28,10 @@ object TwitterIngestion {
 
   class Util(topic:String){
     val config = new twitter4j.conf.ConfigurationBuilder()
-      .setOAuthConsumerKey("")
-      .setOAuthConsumerSecret("")
-      .setOAuthAccessToken("")
-      .setOAuthAccessTokenSecret("")
+      .setOAuthConsumerKey("7K1EdywmZVe9KUs0DQnF7Bx8l")
+      .setOAuthConsumerSecret("1xx3ec4fkOobiC3n20DFDlHIXkQjChuNmkGXH9oZY8hUqgZ2Rq")
+      .setOAuthAccessToken("424248149-N4N9twncOy1k8CDCfZptAxfXT4ZaWOPmEDGaYLrY")
+      .setOAuthAccessTokenSecret("RyTosA9rpE5lIdvpynDbVwSRksqDSDe2dVQytjAft7Vva")
       .build()
 
     def simpleStatusListener = new StatusListener() {

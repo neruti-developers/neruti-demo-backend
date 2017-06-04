@@ -24,7 +24,8 @@ libraryDependencies ++= Seq(
   "org.twitter4j" % "twitter4j-stream" % "3.0.3",
   "com.rabbitmq" % "amqp-client" % "3.6.5",
   "org.scala-lang.modules" %% "scala-async" % "0.9.6",
-  "net.debasishg" %% "redisclient" % "3.4"
+  "net.debasishg" %% "redisclient" % "3.4",
+  "com.danielasfregola" %% "twitter4s" % "0.2.1"
 
 )
 
